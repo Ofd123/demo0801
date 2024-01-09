@@ -28,11 +28,16 @@ public class MainActivity extends AppCompatActivity {
         x = rnd.nextInt(3) + 1;
         btn.setText("This is picture number: " + x);
 
-        if (x == 1) {
+        if (x == 1)
+        {
             iv.setImageResource(R.drawable.androidone);
-        } else if (x == 2) {
+        }
+        else if (x == 2)
+        {
             iv.setImageResource(R.drawable.pokemontwo);
-        } else if (x == 3) {
+        }
+        else if (x == 3)
+        {
             iv.setImageResource(R.drawable.minionsthree);
         }
     }
